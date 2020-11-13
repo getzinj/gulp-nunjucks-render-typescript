@@ -3,7 +3,7 @@ var _ = require('lodash');
 var PluginError = require('plugin-error');
 var replaceExtension = require('replace-ext');
 var through = require('through2');
-var nunjucks = require('nunjucks');
+var nunjucks = require('nunjucks-typescript');
 
 var defaults = {
     path: '.',
