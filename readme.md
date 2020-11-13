@@ -1,6 +1,4 @@
-[![Build Status](https://travis-ci.org/carlosl/gulp-nunjucks-render.svg?branch=master)](https://travis-ci.org/carlosl/gulp-nunjucks-render)
-
-# [gulp](https://github.com/wearefractal/gulp)-nunjucks-render
+# [gulp](https://github.com/wearefractal/gulp)-nunjucks-render-typescript
 
 > Render [Nunjucks](http://mozilla.github.io/nunjucks/) templates
 
@@ -9,10 +7,10 @@
 
 ## Install
 
-Install with [npm](https://www.npmjs.com/package/gulp-nunjucks-render)
+Install with [npm](https://www.npmjs.com/package/gulp-nunjucks-render-typescript)
 
 ```
-npm install --save-dev gulp-nunjucks-render
+npm install --save-dev gulp-nunjucks-render-typescript
 ```
 
 
@@ -20,7 +18,7 @@ npm install --save-dev gulp-nunjucks-render
 
 ```js
 var gulp = require('gulp');
-var nunjucksRender = require('gulp-nunjucks-render');
+var nunjucksRender = require('gulp-nunjucks-render-typescript');
 
 gulp.task('default', function () {
   return gulp.src('src/templates/*.html')
@@ -35,7 +33,7 @@ gulp.task('default', function () {
 
 ```js
 var gulp = require('gulp');
-var nunjucksRender = require('gulp-nunjucks-render');
+var nunjucksRender = require('gulp-nunjucks-render-typescript');
 var data = require('gulp-data');
 
 function getDataForFile(file) {
