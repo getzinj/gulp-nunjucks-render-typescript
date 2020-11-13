@@ -1,11 +1,11 @@
 {
-  "name": "gulp-nunjucks-render",
-  "version": "2.2.3",
+  "name": "gulp-nunjucks-render-typescript",
+  "version": "0.0.1",
   "description": "Render Nunjucks templates with data",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/carlosl/gulp-nunjucks-render"
+    "url": "git://github.com/getzinj/gulp-nunjucks-render-typescript"
   },
   "engines": {
     "node": ">=0.10.0"
@@ -19,6 +19,7 @@
   "keywords": [
     "gulpplugin",
     "nunjucks",
+    "nunjucks-typescript",
     "template",
     "templating",
     "view",
@@ -28,7 +29,7 @@
   ],
   "dependencies": {
     "lodash": "^4.17.11",
-    "nunjucks": "^3.1.2",
+    "nunjucks-typescript": "^0.0.1",
     "plugin-error": "^1.0.1",
     "replace-ext": "^1.0.0",
     "through2": "^2.0.3"
@@ -39,9 +40,5 @@
     "vinyl": "^2.1.0"
   },
   "readmeFilename": "readme.md",
-  "bugs": {
-    "url": "https://github.com/carlosl/gulp-nunjucks-render/issues"
-  },
-  "homepage": "https://github.com/carlosl/gulp-nunjucks-render",
-  "_id": "gulp-nunjucks-render@0.0.1"
+  "_id": "gulp-nunjucks-render-typescript@0.0.1"
 }
